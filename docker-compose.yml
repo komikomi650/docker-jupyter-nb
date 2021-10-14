@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  datascience-notebook:
+    container_name: jupyternotebook
+    image: jupyter/datascience-notebook
+    volumes: 
+      - ./work:/home/jovyan/work
+    ports:
+      - 8888:8888
+    restart: always
+    
+    # command: start.sh jupyter lab --NotebookApp.token=''
+    command: start.sh jupyter notebook --NotebookApp.token=''
+

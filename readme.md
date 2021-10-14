@@ -9,15 +9,17 @@ Windows使用者の方はWSLが有効化する必要があります。
 参考コマンド
 
 ```
-   git clone https://komikomi650@bitbucket.org/awsapi-portal/docker-work.git
+   git clone https://github.com/komikomi650/docker-jupyter-nb.git
 ```
 
 ~~
+
 2. cloneしたディレクトリ内に移動し、workディレクトリを作成
 ```
    mkdir work
 ```
    ※jupyter notebookで作成したファイルを保存するために必要
+
 ~~
 
 *** ディレクトリ作成部分は以降の`docker-compose up`で自動的に作成されます。 ***
